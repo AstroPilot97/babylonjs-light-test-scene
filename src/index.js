@@ -88,7 +88,7 @@ function createScene() {
     new BABYLON.Vector3(-590, 169, -1240),
   ];
 
-  const cloudScaling = [100, 125, 150, 300, 150, 175];
+  const cloudScaling = [100, 125, 150, 200, 150, 175];
 
   for (let i = 0; i < cloudPlacement.length; i++) {
     initClouds(
